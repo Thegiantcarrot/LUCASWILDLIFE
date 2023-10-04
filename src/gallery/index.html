@@ -1,0 +1,321 @@
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucas Henry Photography</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="/gallery/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/popup.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+</head><body>
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="/index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="/about/index.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+    <a href="/shop/" onclick="w3_close()" class="w3-bar-item w3-button">Shop</a>
+</nav>
+    
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1800px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">Lucas Henry Photography</div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1800px;margin-top:100px">
+ <button id="back-to-top" onclick="scrollToTop()">↑</button>
+
+      <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/img/africa/BnWELEPHANTMOVEMENT.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(1)">
+      <div class="w3-container w3-white">
+        <p><i>Elephant Footsteps</i></p>
+        <p>This photo was captured when I was in Zimbabwe. The editing process to turn it into B&amp;W was very rewarding as the final image is one of my best images to date. Shot with Canon EOS R3.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/img/africa/LionRelaxed.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(2)">
+      <div class="w3-container w3-white">
+        <p><i>Lion Relaxing</i></p>
+        <p>Deep in Mana Pools I captured this photo just before the sun went down, this gives the image a warm golden vibe. Taken on the Canon EOS 6D MK ii.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/img/africa/IMG_3446.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(3)">
+      <div class="w3-container w3-white">
+        <p><i>The Eye</i></p>
+        <p>In the Okavango Delta I spotted this baby crocodile too close to the boat to photograph his whole body with my 600mm lens. so I opted for this menacing photo of his eye. Shot on Canon EOS 6D MK ii</p>
+      </div>
+    </div>
+  </div>
+
+
+
+      <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/img/africa/IMG_1684.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(4)">
+      <div class="w3-container w3-white">
+        <p><i>Lion Sunset</i></p>
+        <p>The portrait of this lion was taken in Mana Pools in Zimbabawe when I stepped out behind the truck to sit on the ground and get this level shot. Shot on Canon EOS 6D MK ii</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/img/africa/IMG_2032.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(5)">
+      <div class="w3-container w3-white">
+        <p><i>Dog Looking Forward Nervously</i></p>
+        <p>[Send Me Desc On Whatapp]</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/img/africa/IMG_2398.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(6)">
+      <div class="w3-container w3-white">
+        <p><i>Bird Reflections</i></p>
+        <p>[Send Me Desc On Whatapp]</p>
+      </div>
+    </div>
+  </div>
+
+
+        <!-- Third Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/img/africa/IMG_9744.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(7)">
+      <div class="w3-container w3-white">
+        <p><i>Elephant With Mud</i></p>
+        <p>[Send Me Desc On Whatapp]</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/img/africa/IMG_9902.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(8)">
+      <div class="w3-container w3-white">
+        <p><i>Giraffe Mid Kick</i></p>
+        <p>[Send Me Desc On Whatapp]</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/img/africa/0L3A3692.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(9)">
+      <div class="w3-container w3-white">
+        <p><i>Bird In Flight Looking For Food</i></p>
+        <p>[Send Me Desc On Whatapp]</p>
+      </div>
+    </div>
+  </div>
+
+        <!-- Fourth Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/img/africa/BOS.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(10)">
+      <div class="w3-container w3-white">
+        <p><i>Bird On Branch</i></p>
+        <p>[Send Me Desc On Whatapp]</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/img/africa/PHOTO-2023-09-04-19-19-00.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(11)">
+      <div class="w3-container w3-white">
+        <p><i>Aardvark at Night</i></p>
+        <p>[Send Me Desc On Whatapp]</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/img/africa/PHOTO-2023-09-04-19-19-25.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity hover-shadow cursor" onclick="openModal();currentSlide(12)">
+      <div class="w3-container w3-white">
+        <p><i>Zebra With Sunset Grass</i></p>
+        <p>[Send Me Desc On Whatapp]</p>
+      </div>
+    </div>
+  </div>
+
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">×</span>
+  <div class="modal-content">
+
+    <div class="mySlides" style="display: block;">
+      <div class="numbertext">1 / 12 Elephant Footsteps</div>
+      <img src="/img/africa/BnWELEPHANTMOVEMENT.jpg" style="width:100%" alt="Elephant Movement"class="imgcap">
+    </div>
+
+    <div class="mySlides" style="display: none;">
+      <div class="numbertext">2 / 12 Lion Relaxing</div>
+      <img src="/img/africa/LionRelaxed.jpg" style="width:100%" alt="Lion Relaxing" class="imgcap">
+    </div>
+
+    <div class="mySlides" style="display: none;">
+      <div class="numbertext">3 / 12 The Eye</div>
+      <img src="/img/africa/IMG_3446.jpg" style="width:100%" alt="The Eye" class="imgcap">
+    </div>
+    
+    <div class="mySlides" style="display: none;">
+      <div class="numbertext">4 / 12 Lion Sunset</div>
+      <img src="/img/africa/IMG_1684.jpg" style="width:100%" alt="" class="imgcap">
+    </div>
+    
+    <div class="mySlides" style="display: none;">
+      <div class="numbertext">5 / 12 Dog Looking Forward Nervously</div>
+      <img src="/img/africa/IMG_2032.jpg" style="width:100%" alt="Dog Looking Forward Nervously" class="imgcap">
+    </div>
+
+      <div class="mySlides" style="display: none;">
+      <div class="numbertext">6 / 12 Bird Reflections</div>
+      <img src="/img/africa/IMG_2398.jpg" style="width:100%" alt="Bird Reflections" class="imgcap">
+    </div>
+     
+    <div class="mySlides" style="display: none;">
+      <div class="numbertext">7 / 12 Elephant With Mud</div>
+      <img src="/img/africa/IMG_9744.jpg" style="width:100%" alt="Bird Reflections" class="imgcap">
+    </div>
+    
+  <div class="mySlides" style="display: none;">
+      <div class="numbertext">8 / 12 Girrafe Mid Kick</div>
+      <img src="/img/africa/IMG_9902.jpg" style="width:100%" alt="Bird Reflections" class="imgcap">
+    </div>
+
+     <div class="mySlides" style="display: none;">
+      <div class="numbertext">9 / 12 Bird In Flight Looking For Food</div>
+      <img src="/img/africa/0L3A3692.jpg" style="width:100%" alt="Bird Reflections" class="imgcap">
+    </div>
+
+    
+     <div class="mySlides" style="display: none;">
+      <div class="numbertext">10 / 12 Bird On Branch</div>
+      <img src="/img/africa/BOS.jpg" style="width:100%" alt="Bird Reflections" class="imgcap">
+    </div>
+
+    <div class="mySlides" style="display: none;">
+      <div class="numbertext">11 / 12 Aardvark at Night</div>
+      <img src="/img/africa/PHOTO-2023-09-04-19-19-00.jpg" style="width:100%" alt="Bird Reflections" class="imgcap">
+    </div>
+    
+     <div class="mySlides" style="display: none;">
+      <div class="numbertext">12 / 12 Zebra With Sunset Grass</div>
+      <img src="/img/africa/PHOTO-2023-09-04-19-19-25.jpg" style="width:100%" alt="Bird Reflections" class="imgcap">
+    </div>
+    
+
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+  </div>
+</div>
+</div>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="popup-close" id="popup-close">&times;</span>
+            <h2>Like A Print You See?</h2>
+            <p><a href="/shop/">Purchase a print in our shop!</a></p>
+        <label for="dismiss-checkbox">
+            <input type="checkbox" id="dismiss-checkbox"> Don't show again
+        </label>
+        </div>
+    </div>
+    <script src="/popup.js"></script>
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  
+  if (n > slides.length) { slideIndex = 1; }
+  if (n < 1) { slideIndex = slides.length; }
+  
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  
+  var currentSlide = slides[slideIndex - 1];
+  currentSlide.style.display = "block";
+  dots[slideIndex - 1].className += " active";
+  
+  // Retrieve the caption from the current slide's imgcap class
+  var caption = currentSlide.getElementsByClassName("imgcap")[0];
+  
+  if (caption) {
+    captionText.innerHTML = caption.innerText;
+  } else {
+    // If no caption is found, set the captionText to an empty string
+    captionText.innerHTML = "";
+  }
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+     // Function to scroll to the top of the page with smooth animation
+        function scrollToTop() {
+            const scrollDuration = 200; // Adjust this value to control the scroll speed
+            const scrollStep = -window.scrollY / (scrollDuration / 15);
+            const scrollInterval = setInterval(function() {
+                if (window.scrollY !== 0) {
+                    window.scrollBy(0, scrollStep);
+                } else {
+                    clearInterval(scrollInterval);
+                }
+            }, 15);
+        }
+
+        // Show or hide the "back to top" button based on scroll position
+        window.onscroll = function() {
+            const backButton = document.getElementById("back-to-top");
+            if (window.scrollY >= 200) {
+                backButton.style.display = "block";
+            } else {
+                backButton.style.display = "none";
+            }
+        };
+</script>
+
+</body></html>

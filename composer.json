@@ -1,0 +1,16 @@
+{
+    "name": "lucaswildlife",
+    "description": "portfolio",
+    "type": "project",
+    "license": "1.1.2",
+    "authors": [
+        {
+            "name": "Alex Fife",
+            "email": "alexhfife@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+        "phpmailer/phpmailer": "^6.8.1"
+    }
+}
